@@ -61,7 +61,7 @@ const RegisterPage = () => {
         <input
           type="password"
           placeholder="Enter ConfirmPassword"
-          value={password}
+          value={confirmPassword}
           onChange={(e) => setConfirmPassword(e.target.value)}
         />
         <button type="submit">Register</button>
